@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Quicksand:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body {
+   background-image: url(img/back.png);
+} 
+
+.main {
+    display: flex;
+    justify-content: flex-start;
+    padding: 100px 250px;
+}
+
+.main .step-1 {
+    margin: 0;
+    padding: 50px 50px ;
+    width: 330px;
+    height: 556px;
+    background-color: #0060EF;
+    border-radius: 20px 0 0 20px;
+}
+
+.main .step-1 img {
+    width: 70px;
+}
+
+.main .step-1 .font {
+    display: flex;
+    flex-direction: column;
+    padding-top: 120px;
+}
+
+.main .step-1 .font h1 {
+    display: flex;
+    align-items: baseline;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px; /* 162.5% */ 
+}
+
+.main .step-1 .font h2 {
+    display: flex;
+    align-items: baseline;
+    color: white;
+    padding-top: 16px;
+    padding-bottom: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35pxpx; /* 162.5% */ 
+}
+
+.main .step-1 .font .open-btn {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 200px;
+    height: 56px;
+    border-radius: 40px;
+    background-color: #0060EF;
+    border: 1.8px solid #fff;
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+
+.main .step-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    width: 760px;
+    height: 556px;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(50px);
+    border-radius: 0 20px 20px 0;
+    box-shadow: 8px 8px 20px 0px rgba(167, 167, 167, 0.15);
+}
+
+.main .step-2 .h1-sl {
+    padding-top: 80px;
+    font-size: 32px;
+    color: #0060EF;
+}
+
+.main .step-2 .h2-p2 {
+    font-size: 16px;
+    color: #898989;
+    font-weight: 400;
+}
+
+.main .step-2 .container {
+    display: flex;
+    flex-direction: column;
+    color: #898989;
+    width: 300px;
+    height: 100px;
+    padding-top: 50px;
+}
+
+.main .step-2 .container h3 {
+    font-weight: 300;
+    font-size: 16px;
+    padding-left: 15px;
+}
+
+.main .step-2 .container .material-symbols-outlined { 
+    font-family: 'Material Symbols Outlined';
+    font-style: normal;
+    font-size: 18px;
+    padding-top: 3px;
+}
+
+.main .step-2 .container .name {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 7px;
+    height: auto;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.04);
+}
+
+.main .step-2 .container .email {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 7px;
+    height: auto;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.04);
+}
+
+.main .step-2 .container .password {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 7px;
+    height: auto;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.04);
+}
+
+.main .step-2 .btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.main .step-2 .solicitar-btn {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 200px;
+    height: 56px;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0.50);
+    backdrop-filter: blur(50px);
+    border: 2px solid #0060EF;
+    font-size: 22px;
+    font-weight: 700;
+    color: #0060EF;
+    cursor: pointer;
+}
