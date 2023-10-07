@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Quicksand:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body {
+    background-image: url(img/back2.png);
+    margin: 0;
+ } 
+ 
+ .main {
+     display: flex;
+     justify-content: center;
+     padding: 100px 250px;
+ }
+
+.main .step-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    width: 760px;
+    height: 556px;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(50px);
+    border-radius: 0 20px 20px 0;
+    box-shadow: 8px 8px 20px 0px rgba(167, 167, 167, 0.15);
+}
+
+.main .step-2 .h1-sl {
+    padding-top: 120px;
+    font-size: 32px;
+    color: #0060EF;
+}
+
+.main .step-2 .h2-p2 {
+    padding-top: 80px;
+    font-size: 16px;
+    color: #898989;
+    font-weight: 400;
+    text-align: center;
+}
+
+.main .step-2 .btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.main .step-2 .reenviar-btn {
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    width: 200px;
+    height: 56px;
+    border-radius: 40px;
+    background: #0060EF;
+    backdrop-filter: blur(50px);
+    border: 2px solid #0060EF;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+}
+
+.main .step-2 .reenviar-btn:hover {
+    transform: scale(1.1);
+    background-position: -40px;
+    box-shadow: 2px 2px 8px 0px rgba(167, 167, 167,0.5);
+}
+
+@keyframes animar {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
